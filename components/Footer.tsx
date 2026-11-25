@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200 bg-slate-50">
       <div className="mx-auto max-w-5xl px-4 pt-8">
-        <h2 className="text-xs font-semibold tracking-wider text-slate-500">함께 보면 좋은 자동차 사이트</h2>
+        <h2 className="text-xs font-semibold tracking-wider text-slate-500">함께 보면 좋은 사이트</h2>
         <div className="mt-3 flex flex-wrap gap-2">
           {SISTER_SITES.map((site) => (
             <a key={site.url} href={sisterUrl(site.url)} className="rounded-full border border-slate-300 bg-white px-3 py-1 text-xs text-slate-600 hover:border-blue-600 hover:text-blue-700">
