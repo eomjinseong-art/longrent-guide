@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
   description,
   keywords: ["장기렌트", "장기렌트 비교", "리스", "장기렌트 리스 차이", "신차 장기렌트", "장기렌트 할부 비교", "선수금 보증금 차이", "개인사업자 장기렌트", "장기렌트 계산기"],
-  openGraph: { type: "website", locale: "ko_KR", url: SITE_URL, siteName: SITE_NAME, title: SITE_NAME, description },
-  twitter: { card: "summary", title: SITE_NAME, description },
+  openGraph: { type: "website", locale: "ko_KR", url: SITE_URL, siteName: SITE_NAME, title: SITE_NAME, description, images: ["/opengraph-image"] },
+  twitter: { card: "summary_large_image", title: SITE_NAME, description, images: ["/opengraph-image"] },
   verification,
   robots: { index: true, follow: true },
 };
