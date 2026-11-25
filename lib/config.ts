@@ -6,8 +6,8 @@
  * CTA_URL_NEWCAR: 신차 구매·장기렌트 캠페인처럼 두 번째 홍보 URL이 있으면 넣으세요(선택).
  *   비어 있으면 CTA_URL 하나만 씁니다.
  */
-export const CTA_URL = "";
-export const CTA_URL_NEWCAR = "";
+export const CTA_URL = "https://len3yxugo2.sens.kr";
+export const CTA_URL_NEWCAR = "https://p3o6bjld12.sens.kr";
 
 export const CTA_LABEL = "무료 장기렌트 견적 상담";
 export const CTA_NEWCAR_LABEL = "신차 장기렌트·리스 견적 비교";
