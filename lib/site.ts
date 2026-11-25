@@ -37,6 +37,7 @@ export const SISTER_SITES = [
   { label: "이탈리안 모터스", url: "https://italian-motors.vercel.app" },
   { label: "미국차 컬렉션 아카이브", url: "https://usa-motors.vercel.app" },
   { label: "오토픽스 자동차용품", url: "https://car-parts-cpang.vercel.app" },
+  { label: "시니어 정리·돌봄 노트", url: "https://senior-care-note.vercel.app" },
   { label: "나두 허브", url: "https://tinalinkeom.vercel.app" },
 ] as const;
 
