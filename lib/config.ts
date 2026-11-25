@@ -13,5 +13,5 @@ export const CTA_LABEL = "무료 장기렌트 견적 상담";
 export const CTA_NEWCAR_LABEL = "신차 장기렌트·리스 견적 비교";
 
 /** 검색엔진 소유 확인 코드(네이버 서치어드바이저, 구글 서치 콘솔). 받은 content 값만 넣으세요. */
-export const NAVER_SITE_VERIFICATION = "";
+export const NAVER_SITE_VERIFICATION = "4765dabf6def8c3f2ee138de3c92e19af45bda8e";
 export const GOOGLE_SITE_VERIFICATION = "LglMaYLzS6dacAPQ5ZgZdPgzdtfLbp_1Rk5vh3WNPlM";
