@@ -31,6 +31,14 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       <Sections sections={g.sections} />
       {g.faq ? <Faq items={g.faq} /> : null}
 
+      {g.slug === "credit-screening" ? (
+        <section className="mt-10 rounded-2xl border border-blue-200 bg-blue-50 p-5">
+          <h2 className="text-base font-bold text-slate-900">심사 전 신용점수 확인 안내</h2>
+          <p className="mt-1 text-sm leading-6 text-slate-600">본인 조회가 점수에 영향을 주는지, 점수를 관리하는 일반적인 방법, 올크레딧과 NICE지키미에서 확인하는 길을 따로 정리해 두었습니다.</p>
+          <Link href="/credit" className="mt-3 inline-block rounded-lg bg-blue-700 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800">신용점수 확인 안내 →</Link>
+        </section>
+      ) : null}
+
       <section className="mt-10 rounded-2xl bg-slate-50 p-5">
         <h2 className="text-base font-bold">직접 계산해 보기</h2>
         <p className="mt-1 text-sm text-slate-600">기간·선수금·보증금을 바꿔 가며 장기렌트·리스·할부의 월 비용을 예시로 비교해 보세요.</p>

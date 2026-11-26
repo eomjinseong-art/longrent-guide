@@ -23,6 +23,7 @@ export function Footer() {
           <Link href="/about" className="hover:text-blue-700">사이트 안내·광고 고지</Link>
           <Link href="/cars" className="hover:text-blue-700">차종별 비교</Link>
           <Link href="/guide" className="hover:text-blue-700">가이드</Link>
+          <Link href="/credit" className="hover:text-blue-700">심사 전 신용점수</Link>
           <Link href="/calculator" className="hover:text-blue-700">월 비용 계산기</Link>
         </nav>
       </div>
