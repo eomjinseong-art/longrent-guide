@@ -22,6 +22,7 @@ export const NAV = [
   { href: "/guide", label: "가이드" },
   { href: "/calculator", label: "월 비용 계산기" },
   { href: "/compare", label: "렌트·리스·할부" },
+  { href: "/credit", label: "신용점수" },
 ] as const;
 
 function utm(base: string, medium = "footer") {

@@ -46,7 +46,7 @@ export default function ComparePage() {
         ))}
       </section>
       <p className="mt-8 text-[15px] leading-7 text-slate-700">
-        어느 쪽이 더 싼지는 조건마다 다릅니다. <Link href="/calculator" className="text-blue-700 underline">월 비용 계산기</Link>로 같은 조건을 넣어 비교하고, <Link href="/guide/quote-checklist" className="text-blue-700 underline">견적서 체크리스트</Link>로 조건을 맞춰 견적을 받아 보세요.
+        어느 쪽이 더 싼지는 조건마다 다릅니다. <Link href="/calculator" className="text-blue-700 underline">월 비용 계산기</Link>로 같은 조건을 넣어 비교하고, <Link href="/guide/quote-checklist" className="text-blue-700 underline">견적서 체크리스트</Link>로 조건을 맞춰 견적을 받아 보세요. 심사 전에 신용 상태를 먼저 보려면 <Link href="/credit" className="text-blue-700 underline">신용점수 확인 안내</Link>를 참고하세요.
       </p>
       <Cta />
     </>
